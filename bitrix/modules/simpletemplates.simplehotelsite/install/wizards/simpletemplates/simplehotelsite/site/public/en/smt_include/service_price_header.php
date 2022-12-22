@@ -1,0 +1,1 @@
+<h2 class="h2 smt-header-underline-left">Стоимость</h2>

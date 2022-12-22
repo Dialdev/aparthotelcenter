@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/simplehotelsite/components/bitrix/catalog.smart.filter/smt_projects/style.css" => "164733583813390","/bitrix/templates/simplehotelsite/components/bitrix/catalog.smart.filter/smt_projects/themes/smt/colors.css" => "16473358383475",]; ?>

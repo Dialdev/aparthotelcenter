@@ -1,0 +1,46 @@
+.smt-logo img {
+    max-width: 166px;
+}
+/* Бизнес - центр */
+.image_h1 img{
+  display: block;
+  margin: 0 auto;
+}
+.script,
+.area{
+  margin-top: 1rem;
+}
+.script ul,
+.area ul{
+  list-style: none;
+}
+.sript_type{
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  grid-auto-flow: column;
+}
+.area p{
+  margin: 0;
+}
+.price_table table{
+  width: 100%;
+  border-color: black;
+}
+.price_table td,
+.price_table th{
+  border: 1px solid;
+  padding: 5px;
+}
+.price_table table thead td:nth-child(1){
+	border: none;
+}
+.price_button{
+  border: 1px solid;
+  padding: 1rem;
+  margin: 2rem auto;
+  display: block;
+  width: max-content;
+  border-radius: 1rem;
+}
+/* Бизнес - центр конец */

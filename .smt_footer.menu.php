@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Документы",
+		"/company/documents/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Акции",
+		"/company/promo/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Отзывы",
+		"/company/reviews/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Вакансии",
+		"/company/jobs/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Политика конфиденциальности",
+		"/company/agreement/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

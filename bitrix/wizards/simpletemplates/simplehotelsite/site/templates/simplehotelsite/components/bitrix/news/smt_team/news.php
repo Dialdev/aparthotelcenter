@@ -1,0 +1,104 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+/** @var array $arParams */
+/** @var array $arResult */
+/** @global CMain $APPLICATION */
+/** @global CUser $USER */
+/** @global CDatabase $DB */
+/** @var CBitrixComponentTemplate $this */
+/** @var string $templateName */
+/** @var string $templateFile */
+/** @var string $templateFolder */
+/** @var string $componentPath */
+/** @var CBitrixComponent $component */
+$this->setFrameMode(true);
+?>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:photo.sections.top",
+	"smt_team",
+	array(
+		"CACHE_TYPE" => $arParams["CACHE_TYPE"],
+		"CACHE_TIME" => $arParams["CACHE_TIME"],
+		"CACHE_FILTER" => $arParams["CACHE_FILTER"],
+		"CACHE_GROUPS" => $arParams["CACHE_GROUPS"],
+		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+		"DISPLAY_BUTTON" => (isset($arParams['LIST_DISPLAY_BUTTON']) ? $arParams['LIST_DISPLAY_BUTTON'] : ''),
+		"DISPLAY_DATE" => $arParams["LIST_DISPLAY_DATE"],
+		"DISPLAY_NAME" => $arParams["LIST_DISPLAY_NAME"],
+		"DISPLAY_PICTURE" => $arParams["LIST_DISPLAY_PICTURE"],
+		"DISPLAY_PREVIEW_TEXT" => $arParams["LIST_DISPLAY_PREVIEW_TEXT"],
+		"DISPLAY_DESCRIPTION" => (isset($arParams['LIST_DISPLAY_DESCRIPTION']) ? $arParams['LIST_DISPLAY_DESCRIPTION'] : ''),
+		"DISPLAY_IMAGE_NAME" => (isset($arParams["LIST_DISPLAY_IMAGE_NAME"]) ? $arParams["LIST_DISPLAY_IMAGE_NAME"] : ""),
+		"DISPLAY_IMAGE_PREVIEW_TEXT" => (isset($arParams["LIST_DISPLAY_IMAGE_PREVIEW_TEXT"]) ? $arParams["LIST_DISPLAY_IMAGE_PREVIEW_TEXT"] : ""),
+		"ELEMENT_COUNT" => $arParams["NEWS_COUNT"],
+		"ELEMENT_SORT_FIELD" => $arParams["SORT_BY1"],
+		"ELEMENT_SORT_ORDER" => $arParams["SORT_ORDER1"],
+		"FIELD_CODE" => $arParams["LIST_FIELD_CODE"],
+		"FILTER_NAME" => $arParams["FILTER_NAME"],
+		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
+		"IBLOCK_ID" => $arParams["IBLOCK_ID"],
+		"LINE_ELEMENT_COUNT" => $arParams["LIST_LINE_ELEMENT_COUNT"],
+		"LINE_ELEMENT_GRID" => $arParams["LIST_LINE_ELEMENT_GRID"],
+		"SMT_LINK_SHOW_MODE" => $arParams["LIST_SMT_LINK_SHOW_MODE"],
+		"MAIN_BLOCK_PROPERTY_CODE" => (isset($arParams["LIST_MAIN_BLOCK_PROPERTY_CODE"]) ? $arParams["LIST_MAIN_BLOCK_PROPERTY_CODE"] : ""),
+		"PICTURE_RESIZE" => (isset($arParams['LIST_PICTURE_RESIZE']) ? $arParams['LIST_PICTURE_RESIZE'] : ''),
+		"PICTURE_RESIZE_MODE" => (isset($arParams['LIST_PICTURE_RESIZE_MODE']) ? $arParams['LIST_PICTURE_RESIZE_MODE'] : ''),
+		"PICTURE_RESOLUTION" => (isset($arParams['LIST_PICTURE_RESOLUTION']) ? $arParams['LIST_PICTURE_RESOLUTION'] : ''),
+		"PICTURE_RESIZE_SOURCE" => (isset($arParams['LIST_PICTURE_RESIZE_SOURCE']) ? $arParams['LIST_PICTURE_RESIZE_SOURCE'] : ''),
+		"PICTURE_RESIZE_WIDTH" => (isset($arParams['LIST_PICTURE_RESIZE_WIDTH']) ? $arParams['LIST_PICTURE_RESIZE_WIDTH'] : ''),
+		"PICTURE_RESIZE_HEIGHT" => (isset($arParams['LIST_PICTURE_RESIZE_HEIGHT']) ? $arParams['LIST_PICTURE_RESIZE_HEIGHT'] : ''),
+		"PROPERTY_CODE" => $arParams["LIST_PROPERTY_CODE"],
+		"SECTION_ADDITIONAL_CLASS" => "",
+		"SECTION_COUNT" => "50",
+		"SECTION_DISPLAY_BUTTON" => "N",
+		"SECTION_DISPLAY_DESCRIPTION" => "N",
+		"SECTION_DISPLAY_LINK" => "N",
+		"SECTION_DISPLAY_NAME" => "Y",
+		"SECTION_DISPLAY_PICTURE" => "N",
+		"SECTION_DISPLAY_PREVIEW_TEXT" => "N",
+		"SECTION_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SECTION_PICTURE_RESIZE" => "N",
+		"SECTION_PICTURE_RESIZE_HEIGHT" => "480",
+		"SECTION_PICTURE_RESIZE_MODE" => "2",
+		"SECTION_PICTURE_RESIZE_SOURCE" => "PICTURE",
+		"SECTION_PICTURE_RESIZE_WIDTH" => "640",
+		"SECTION_SORT_FIELD" => $arParams["SORT_BY2"],
+		"SECTION_SORT_ORDER" => $arParams["SORT_ORDER2"],
+		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SMT_SLIDER" => (isset($arParams['LIST_SMT_SLIDER']) ? $arParams['LIST_SMT_SLIDER'] : ''),
+		"SMT_SLIDER_ITEMS" => (isset($arParams['LIST_SMT_SLIDER_ITEMS']) ? $arParams['LIST_SMT_SLIDER_ITEMS'] : ''),
+		"SMT_SLIDER_MARGIN" => (isset($arParams['LIST_SMT_SLIDER_MARGIN']) ? $arParams['LIST_SMT_SLIDER_MARGIN'] : ''),
+		"SMT_SLIDER_NAV" => (isset($arParams['LIST_SMT_SLIDER_NAV']) ? $arParams['LIST_SMT_SLIDER_NAV'] : ''),
+		"SMT_SLIDER_DOTS" => (isset($arParams['LIST_SMT_SLIDER_DOTS']) ? $arParams['LIST_SMT_SLIDER_DOTS'] : ''),
+		"SMT_SLIDER_VERTICAL_ALIGN" => (isset($arParams['LIST_SMT_SLIDER_VERTICAL_ALIGN']) ? $arParams['LIST_SMT_SLIDER_VERTICAL_ALIGN'] : ''),
+		"SMT_SLIDER_RESPONSIVE" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE'] : ''),
+		"SMT_SLIDER_CUSTOM" => (isset($arParams['LIST_SMT_SLIDER_CUSTOM']) ? $arParams['LIST_SMT_SLIDER_CUSTOM'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_0" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_0']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_0'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_0" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_0']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_0'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_1" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_1']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_1'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_1" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_1']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_1'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_2" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_2']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_2'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_2" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_2']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_2'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_3" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_3']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_3'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_3" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_3']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_3'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_4" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_4']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_4'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_4" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_4']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_4'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_5" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_5']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_5'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_5" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_5']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_5'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_6" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_6']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_6'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_6" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_6']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_6'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_7" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_7']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_7'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_7" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_7']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_7'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_8" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_8']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_8'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_8" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_8']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_8'] : ''),
+		"SMT_SLIDER_RESPONSIVE_ITEMS_9" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_9']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_ITEMS_9'] : ''),
+		"SMT_SLIDER_RESPONSIVE_CUSTOM_9" => (isset($arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_9']) ? $arParams['LIST_SMT_SLIDER_RESPONSIVE_CUSTOM_9'] : ''),
+	),
+	false
+);?>

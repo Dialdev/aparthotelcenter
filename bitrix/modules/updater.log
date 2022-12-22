@@ -1,0 +1,40 @@
+2022-02-15 10:31:10 -  - exec CUpdateClient::GetUpdatesList
+2022-02-15 10:31:10 -  - exec CUpdateClient::CollectRequestData
+2022-02-15 10:31:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=appartcener.dialdev.ru&CHHB=appartcener.dialdev.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=2&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-02-15 10:31:10 -  - exec CUpdateClient::GetHTTPPage
+2022-02-15 10:31:10 -  - TIME GetUpdatesList(request) 0.265 sec
+2022-02-15 10:31:10 -  - exec CUpdateClient::ParseServerData
+2022-02-15 10:31:10 -  - exec CUpdateClient::executeCounters
+2022-02-15 10:31:10 -  - exec CUpdateClient::CollectRequestData
+2022-02-15 10:31:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=appartcener.dialdev.ru&CHHB=appartcener.dialdev.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=2&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y&query_type=counter&cntr_result[368]=7.4
+2022-02-15 10:31:10 -  - exec CUpdateClient::GetHTTPPage
+2022-02-15 10:31:10 -  - TIME executeCounters 0.183 sec
+2022-03-31 11:17:54 -  - exec CUpdateClient::GetUpdatesList
+2022-03-31 11:17:54 -  - exec CUpdateClient::CollectRequestData
+2022-03-31 11:17:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aparthotelcentr.ru&CHHB=aparthotelcentr.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-03-31 11:17:54 -  - exec CUpdateClient::GetHTTPPage
+2022-03-31 11:17:54 -  - TIME GetUpdatesList(request) 0.226 sec
+2022-03-31 11:17:54 -  - exec CUpdateClient::ParseServerData
+2022-03-31 16:17:23 -  - exec CUpdateClient::GetUpdatesList
+2022-03-31 16:17:23 -  - exec CUpdateClient::CollectRequestData
+2022-03-31 16:17:23 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aparthotelcentr.ru&CHHB=aparthotelcentr.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-03-31 16:17:23 -  - exec CUpdateClient::GetHTTPPage
+2022-03-31 16:17:23 -  - TIME GetUpdatesList(request) 0.186 sec
+2022-03-31 16:17:23 -  - exec CUpdateClient::ParseServerData
+2022-03-31 16:22:33 -  - exec CUpdateClient::GetUpdatesList
+2022-03-31 16:22:33 -  - exec CUpdateClient::CollectRequestData
+2022-03-31 16:22:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aparthotelcentr.ru&CHHB=aparthotelcentr.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-03-31 16:22:33 -  - exec CUpdateClient::GetHTTPPage
+2022-03-31 16:22:33 -  - TIME GetUpdatesList(request) 0.189 sec
+2022-03-31 16:22:33 -  - exec CUpdateClient::ParseServerData
+2022-04-04 17:07:07 -  - exec CUpdateClient::GetUpdatesList
+2022-04-04 17:07:07 -  - exec CUpdateClient::CollectRequestData
+2022-04-04 17:07:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aparthotelcentr.ru&CHHB=aparthotelcentr.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2022-04-04 17:07:07 -  - exec CUpdateClient::GetHTTPPage
+2022-04-04 17:07:07 -  - TIME GetUpdatesList(request) 0.236 sec
+2022-04-04 17:07:07 -  - exec CUpdateClient::ParseServerData
+2022-04-04 17:07:07 -  - exec CUpdateClient::executeCounters
+2022-04-04 17:07:07 -  - exec CUpdateClient::CollectRequestData
+2022-04-04 17:07:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=20.700.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aparthotelcentr.ru&CHHB=aparthotelcentr.ru&CSAB=127.0.0.1&SUID=ca4baaf64ae4792b23f7266b296abf22&CANGZIP=Y&CLIENT_PHPVER=7.4.26&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.700.0&bitm_highloadblock=20.200.0&bitm_iblock=20.200.0&bitm_landing=20.5.550&bitm_seo=20.100.0&bitm_rest=20.200.300&bitm_clouds=20.200.0&bitm_messageservice=20.200.0&bitm_fileman=20.300.0&bitm_socialservices=20.100.0&bitm_perfmon=20.200.0&bitm_search=20.5.0&bitm_ui=20.600.0&bitm_bitrixcloud=20.5.0&bitm_translate=20.200.0&bitm_b24connector=20.5.100&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y&query_type=counter&cntr_result[370]=X&cntr_result[372]=X
+2022-04-04 17:07:07 -  - exec CUpdateClient::GetHTTPPage
+2022-04-04 17:07:08 -  - TIME executeCounters 0.175 sec

@@ -1,0 +1,1 @@
+<h2 class="smt-widget__header h2 smt-header smt-header-underline-center"><a href="/company/news/">Мероприятия</a></h2>

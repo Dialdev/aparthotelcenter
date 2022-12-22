@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/simplehotelsite/components/bitrix/catalog.smart.filter/smt_projects/script.js" => "164733583814083",]; ?>

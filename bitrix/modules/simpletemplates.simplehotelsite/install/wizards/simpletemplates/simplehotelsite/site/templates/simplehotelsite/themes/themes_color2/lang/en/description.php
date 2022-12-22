@@ -1,0 +1,3 @@
+<?
+$MESS["SMT_THEME_THEMES_COLOR2"] = "Color 2";
+?>

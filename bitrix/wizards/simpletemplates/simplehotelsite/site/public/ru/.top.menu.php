@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Отель",
+		"#SITE_DIR#company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Номера",
+        "#SITE_DIR#catalog/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Прайс-лист",
+        "#SITE_DIR#price/",
+        Array(),
+        Array(),
+        ""
+    ),
+	Array(
+		"Услуги", 
+		"#SITE_DIR#service/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Галерея", 
+		"#SITE_DIR#gallery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"#SITE_DIR#company/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"#SITE_DIR#contact/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,1 @@
+<p><img width="400" src="/smt_images/main_about.jpg" class="img-responsive"></p>
